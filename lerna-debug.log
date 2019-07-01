@@ -1,0 +1,11 @@
+0 silly argv { _: [ 'add' ],
+0 silly argv   globs: [],
+0 silly argv   lernaVersion: '3.15.0',
+0 silly argv   '$0':
+0 silly argv    '..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\lerna\\cli.js',
+0 silly argv   pkg: 'react@16.8.6' }
+1 notice cli v3.15.0
+2 verbose rootPath C:\Users\ASEP\Documents\Luxi\lernext
+3 error JSONError: Unexpected token } in JSON at position 1540 while parsing near '...react": "7.13.0",  }}' in packages\agency\package.json
+3 error     at module.exports (C:\Users\ASEP\Documents\Luxi\lernext\node_modules\@lerna\project\node_modules\parse-json\index.js:26:19)
+3 error     at parse (C:\Users\ASEP\Documents\Luxi\lernext\node_modules\@lerna\project\node_modules\load-json-file\index.js:8:29)

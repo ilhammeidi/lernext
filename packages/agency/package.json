@@ -1,0 +1,58 @@
+{
+  "name": "luxi-agency",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Luxi agency theme",
+  "keywords": [
+    "agency",
+    "business",
+    "corporate"
+  ],
+  "author": "ilhammeidi <ilham.meidi@gmail.com>",
+  "homepage": "http://luxi.ux-maestro/agency",
+  "license": "ISC",
+  "main": "lib/agency.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "dev": "node index.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node index.js",
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "dependencies": {
+    "@babel/plugin-transform-flow-strip-types": "^7.4.4",
+    "@material-ui/core": "^4.1.1",
+    "@material-ui/icons": "^4.2.0",
+    "@material-ui/styles": "^4.1.1",
+    "babel-eslint": "^10.0.1",
+    "clsx": "^1.0.4",
+    "express": "^4.17.1",
+    "jss": "^10.0.0-alpha.21",
+    "jss-rtl": "^0.2.3",
+    "next": "^8.1.1-canary.42",
+    "next-i18next": "^0.44.0",
+    "pre-commit": "^1.2.2",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.6",
+    "react-i18next": "^10.11.2"
+  },
+  "devDependencies": {
+    "eslint": "5.16.0",
+    "eslint-config-airbnb": "17.1.0",
+    "eslint-config-airbnb-base": "13.1.0",
+    "eslint-config-prettier": "5.0.0",
+    "eslint-import-resolver-webpack": "0.11.1",
+    "eslint-loader": "^2.1.2",
+    "eslint-plugin-flowtype": "^3.10.3",
+    "eslint-plugin-import": "2.17.3",
+    "eslint-plugin-jsx-a11y": "6.2.1",
+    "eslint-plugin-prettier": "3.1.0",
+    "eslint-plugin-react": "7.13.0"
+  }
+}
